@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of CSE</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ------font---- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- ------icons---- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+    <section class="header">
+        <div class="header-nav">
+            <nav>
+                <a href="index.html"><img src="https://www.cseiu.ac.bd/assets/images/iulogo_eng.png"></a>
+
+                <div class="navber" id="navBar">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="academic.html">ACADEMIC</a></li>
+                        <li><a href="faculty.html">FACULTY</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </div>
+        <div class="title">
+            <h1>Department of Computer Science and Engineering</h1>
+            <p>Islamic University, Bangladesh</p><br><br><br>
+            <p>About Us</p>
+        </div>
+    </section>
+
+    <!-- ------javascript for click menu & cross button------- -->
+
+    <script>
+        var navBar = document.getElementById("navBar");
+        function showMenu() {
+            navBar.style.right = "0";
+        }
+        function hideMenu() {
+            navBar.style.right = "-200px";
+        }
+    </script>
+
+
+    <!-- ---------about page--------- -->
+    <section class="about-page">
+        <h1>Welcome message from the Chairman</h1>
+        <div class="msg">
+            <img src="robiul.jpg">
+            <p>Welcome to the Department of Computer Science and Engineering (CSE). It started its academic activities
+                from
+                1996 under the Faculty of Applied Science and Technology. The department provides an outstanding
+                opportunity
+                to students to get quality education in CSE. The students from the department are heavily recruited by
+                both
+                academia and industry. We invite you to explore the information here to learn more about our
+                department.<br><br>
+
+                The Department offers four year undergraduate courses in computer science and engineering and one year
+                M.Sc.
+                program. The programs have been designed to provide an innovative, interdisciplinary education that
+                prepares
+                students in emerging computer science applications for academia and IT industry. Our graduate programs
+                enable you to participate in the creation of knowledge in cutting-edge fields within computer science.
+                Our
+                faculty members maintain active research in Algorithms, Databases, Software Engineering, Computer
+                Network,
+                Network Security, Distributed Computing, Pattern Recognition, Image Processing, Bio-Informatics. To get
+                more
+                information about our research please explore our faculty member’s research interest and specialization.
+                The
+                department also offers M.Phill and PhD for our young scientist.<br><br>
+
+                We look forward to hearing from you.<br><br>
+
+                Best regards,<br><br>
+
+            </p>
+
+            <p class="categori"><span>Prof. Dr. Md. Robiul Hoque</span><br>
+                Chairman,<br>
+                Dept. Computer Science and Engineering<br>
+                Islamic University, Bangladesh</p>
+        </div>
+    </section>
+
+
+
+    <!-- --------footer------- -->
+
+    <section class="footer">
+        <!-- <div class="text">
+            <h3>About Us</h3>
+        </div> -->
+
+        <div class="footer1">
+            <div class="main">
+                <div class="main-row1">
+                    <div class="main-row col1">
+                        <h3>Get in Touch</h3>
+
+                        <div class="col1-item">
+
+                            <div class="location-phn-email">
+                                <div class="location-icon">
+                                    <i class="fa fa-location-arrow"></i>
+                                </div>
+                                <div class="loc-phn-email-detail">
+                                    <p class="detail">24 kilometers south of Kushtia and 22 kilometers north of Jhenidah
+                                        district-town.23°43′16″N 89°09′01″E﻿ / ﻿23.7212°N 89.1504°E﻿ / 23.7212; 89.1504.
+                                        Campus, Urban, 175 acre (1.31523km²).</p>
+                                </div>
+                            </div>
+
+                            <div class="location-phn-email">
+                                <div class="phn">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="loc-phn-email-detail">
+                                    <p class="detail">+8802456712345</p>
+                                </div>
+                            </div>
+                            <div class="location-phn-email">
+                                <div class="email">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="loc-phn-email-detail">
+                                    <p class="detail">registrar@iu.ac.bd</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer2">
+        <p>&copy;2025 CSE Department. All rights reserved.</p>
+    </section>
+</body>
+
+</html>
